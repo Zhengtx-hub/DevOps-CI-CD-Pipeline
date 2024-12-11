@@ -1,9 +1,7 @@
 **DevOps CI/CD Pipeline with Jenkins, GitLab, SonarQube, Harbor, and Kubernetes**
 
 This project demonstrates a complete **DevOps CI/CD pipeline** that automates the processes of **code integration, quality assurance, containerization, and deployment** using industry-leading tools. It provides a robust workflow to ensure high-quality, efficient, and reliable software delivery.
-
-
-
+![Image](https://github.com/Zhengtx-hub/DevOps-CI-CD-Pipeline/blob/aafb658731b2990e6c458c2f5ceef11d8af89a9f/resources/inforstructure.png)
 **🚀 Project Overview**
 
 This project implements the following capabilities:
