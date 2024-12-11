@@ -2,6 +2,19 @@
 
 This project demonstrates a complete **DevOps CI/CD pipeline** that automates the processes of **code integration, quality assurance, containerization, and deployment** using industry-leading tools. It provides a robust workflow to ensure high-quality, efficient, and reliable software delivery.
 ![Image](https://github.com/Zhengtx-hub/DevOps-CI-CD-Pipeline/blob/aafb658731b2990e6c458c2f5ceef11d8af89a9f/resources/inforstructure.png)
+Numbered Steps:
+
+ 	 1.	Developers push code to the GitLab repository for version control.
+     2.	Jenkins is triggered to pull the updated code from GitLab, either via tags or branches.
+     3.	Jenkins compiles the code using the local Maven build tool.
+     4.	Jenkins runs SonarQube to perform code quality analysis and static code checks.
+     5.	Jenkins notifies the Harbor server to make a Docker image and Harbor server pushes it to its container registry. The Harbor server handles the storage and version management of Docker images.
+     6.	Deployment Steps:
+        •	6.1: Jenkins notifies the deployment server to pull the specified image version from Harbor. It shuts down the existing version and runs the updated container.
+        •	6.2: Jenkins notifies Kubernetes to orchestrate the deployment. Kubernetes pulls the specified version from the Harbor registry, creates and manages the Docker containers, and exposes services to the outside world.
+
+
+
 **🚀 Project Overview**
 
 This project implements the following capabilities:
