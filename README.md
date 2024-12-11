@@ -66,7 +66,7 @@ DevOps-CI-CD-Pipeline/
 │   └── service.yaml
 ├── docs/                   # Supplementary documents and screenshots
 ├── resources/              # Flowcharts and architecture diagrams
-│   └── devops_flowchart.png
+│   └── inforstructure.png
 └── test/                   # Example test cases
 ```
 
